@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .form18 {
+            margin: auto;
+            width: 400px;
+            height: 50px;
+            border: 1px solid black;
+            box-shadow: 2px 2px 2px 2px rgb(174, 174, 174);
+        }
+        .form19 {
+            margin: auto;
+            width: 420px;
+            margin-top: 100px;
+        }
+        .form20{
+            margin: auto;
+            width: 420px;
+            margin-top: 100px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Bai 18</h1>
+    <form action="" method="get" name="frmInfo" class="form18">
+        <div>
+            Please indicate your area of interest: <br>
+            <input type="text" name="txtName" value="" size="20" maxlength="20" list="tech"> 
+            <datalist id="tech">
+                <option value="CSS"></option>
+                <option value="HTML"></option>
+                <option value="JavaScrip">J</option>
+            </datalist>
+        </div>
+    </form>
+    <hr>
+    <h1>Bai 19</h1>
+    <form action="" class="form19">
+        <div>
+            <div>
+                <p>.mp4</p>
+                <div>
+                    <video poster="../img/anh1.png" controls width="500px" height="250px">
+                      <source src="https://drive.google.com/uc?id=1hacIs_pHpv6czhnf5ndkHkQzZ4DbAWld" type="video/mp4">
+                    </video>
+                  </div>
+            </div>
+        
+            <div>
+                <p>webm</p>
+                <video poster="../img/anh1.png" controls="control" width="500px" height="250px">
+                    <source src="resource/chromeImF.webm" type="video/webm">
+                </video>
+            </div>
+        
+            <div>
+                <p>.ogv</p>
+                <video poster="../img/anh1.png" controls  width="500px" height="250px">
+                    <source src="resource/chromeImF.ogv" type="video/ogv">
+                </video>
+            </div>
+        </div>  
+    </form>
+    <hr>
+    <h1>Bai 20</h1>
+    <form action="" class="form20">
+        <div>
+            <iframe width="420" height="315" src="https://drive.google.com/uc?id=1hacIs_pHpv6czhnf5ndkHkQzZ4DbAWld" frameborder="0" allowfullscreen></iframe>
+        </div>
+    </form>
+</body>
+</html>
